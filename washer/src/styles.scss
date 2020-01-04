@@ -1,4 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
 
 body {
   margin: 0;
@@ -10,3 +12,6 @@ h1,h2,h3,h4,h5,h6{
 p{
   font-family:Roboto;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
